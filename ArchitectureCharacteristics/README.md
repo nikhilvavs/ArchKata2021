@@ -21,8 +21,5 @@
 
 ### Availability
 - All ciritcal storage will have read-replicas to serve the read traffic and to reduce load on the write instances.
-- The system can scale each of the component horizontally as needed.
-
-
-# Potential problems in the Proposed System
+- Services requiring high write traffic will have will have multi-master replication to divide the write load among multiple instances.
 
