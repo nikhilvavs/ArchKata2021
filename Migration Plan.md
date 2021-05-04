@@ -4,7 +4,7 @@ Follow the links for ADRs.
 
 ## Approach
 
-Our approach is to minimise the changes in monolith for migration so we reduce the risk. Due to reliability issues in the current monolith system we will refrain from making major changes in the existing code. We will gradually create a new system around the edges of the old system. We will complete the migration of the existing system to the [new system] (//TODO link ADR/architcture diagram) in below phases. To gradually cut over to a new system, we will begin by identifying a subset of assets that we'll start with the new system. We will start with the simple assets because they are quick to get going.
+Our approach is to minimise the changes in monolith for migration so we reduce the risk. Due to reliability issues in the current monolith system we will refrain from making major changes in the existing code. We will gradually create a new system around the edges of the old system. We will complete the migration of the existing system to the [new system](./FinalArchitecture/) in below phases. To gradually cut over to a new system, we will begin by identifying a subset of assets that we'll start with the new system. We will start with the simple assets because they are quick to get going.
 
 To make this work smoothly we'll need a mechanism to migrate assets from the old application to the new one and back again. Reverse migration will reduce the risk and to handle cases where an asset may dynamically change in such a way that the new application can no longer handle it e.g: A new feature implementation in an old system.
 
