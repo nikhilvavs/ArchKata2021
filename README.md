@@ -1,13 +1,8 @@
 # Architecture Katas 2021
 
-Submissio for the O'reilly Architecture Katas 2021.
+### Team: Hercules–Corona Borealis
+Submission for the O'reilly Architecture Katas 2021.
 
-
-## Team: Hercules–Corona Borealis
-* Amit Dalal
-* Nikhil VAVS
-* Rohit N. Hiresheddi
-* Shivam Jindal
 
 ## Proposed Architecture
 
