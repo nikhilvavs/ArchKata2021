@@ -1,8 +1,22 @@
+- [Proposed Architecture: Penultimate Electronics](#proposed-architecture-penultimate-electronics)
+- [Key Components](#key-components)
+    - [API Gateway](#api-gateway)
+    - [User Service](#user-service)
+    - [Ticket Service](#ticket-service)
+    - [Matching Service](#matching-service)
+    - [Timer Service](#timer-service)
+    - [Survey Service](#survey-service)
+    - [Notification Service](#notification-service)
+    - [Payment Service](#payment-service)
+    - [Knowledge Base](#knowledge-base)
+    - [Reporting Service](#reporting-service)
+    - [Product Catalog](#product-catalog)
+
+
+
 # Proposed Architecture: Penultimate Electronics
 
 ![Software Architecture](../Diagrams/FinalArchitecture.png)
-
-
 
 # Key Components
 
