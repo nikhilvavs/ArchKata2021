@@ -24,9 +24,9 @@
 
 All the incoming requests to the system will enter through the API gateway. It will handle the Authentication and Authorization for each request and will complete the routing of the request.
 
-To support the migration plan, there will be 2 additional sub-components in the API Gateway. As the roll-out is planned to be done at a per region basis, so these components will handle the appropriate routing of the incoming request (monolist or new-system), based on the locality.
+To support the migration plan, there will be 2 additional sub-components in the API Gateway. As the roll-out is planned to be done at a per region basis, so these components will handle the appropriate routing of the incoming request (monolith or new-system), based on the locality.
 
-1. **Region Resolver** -  This will resolve the locality from the incoming request.
+1. **Region Resolver** -  This will resolve the locality from the incoming request based on the lat/long.
 2. **Routing Controller** - Based on the region of the incoming reqest, this component will handle the further routing.
 
 
